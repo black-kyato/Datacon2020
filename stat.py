@@ -45,7 +45,7 @@ def time_dict(dict):
             first = False
             start = key
         else:
-            dict_re[start] = dict[key] - dict[start]
+            dict_re[start] = key - start
             start = key
     return dict_re
 
